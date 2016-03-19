@@ -1,0 +1,59 @@
+{
+  "name": "xclipboard",
+  "version": "1.0.1",
+  "description": "Xclipboard for easy share data.",
+  "main": "./lib/xclipboard.js",
+  "dependencies": {
+    "assert-plus": "1.0.0",
+    "async": "1.5.2",
+    "config": "1.19.0",
+    "elasticsearch": "10.1.3",
+    "keen-js": "3.4.0",
+    "moment": "2.12.0",
+    "my-restify-api": "0.6.0",
+    "newrelic": "1.25.5",
+    "node-uuid": "1.4.7",
+    "tough-cookie": "2.2.2",
+    "winston": "2.2.0",
+    "winston-loggly": "1.3.1"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "hippie": "0.4.0",
+    "istanbul": "0.4.2",
+    "mocha": "2.4.5"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "mocha --recursive  --timeout 6000 test",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --recursive  --timeout 6000 test",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --recursive  --timeout 6000 test",
+    "test-fun": "mocha --recursive --timeout 6000 functionalTest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xclipboard-platform/npm-xclipboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xclipboard-platform/npm-xclipboard/issues"
+  },
+  "keywords": [
+    "clipboard",
+    "share"
+  ],
+  "author": {
+    "name": "Zenedith",
+    "email": "zenedith@wp.pl"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/xclipboard-platform/npm-xclipboard",
+  "engines": {
+    "node": ">=5.8.0"
+  },
+  "readmeFilename": "README.md",
+  "_id": "xclipboard@1.0.1",
+  "_from": "xclipboard@^1.0.1",
+  "directories": {
+    "test": "test"
+  }
+}
