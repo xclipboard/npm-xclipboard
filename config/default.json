@@ -22,6 +22,29 @@
           }
         }
       }
+    },
+    "clipboards": {
+      "index": "xclipboard",
+      "type": "clipboards",
+      "mappings": {
+        "clipboards": {
+          "properties": {
+            "createdAt": {
+              "format": "dateOptionalTime",
+              "type": "date"
+            },
+            "id": {
+              "type": "string"
+            },
+            "pictogram": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            }
+          }
+        }
+      }
     }
   },
   "provider": {
