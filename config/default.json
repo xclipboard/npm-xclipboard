@@ -1,0 +1,71 @@
+{
+  "newrelic": {
+    "license_key": "",
+    "logging": "info"
+  },
+  "elasticsearch": {
+    "pictograms": {
+      "index": "xclipboard",
+      "type": "pictograms",
+      "mappings": {
+        "pictograms": {
+          "properties": {
+            "category": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "id": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "url": {
+              "type": "string",
+              "index": "not_analyzed"
+            }
+          }
+        }
+      }
+    },
+    "clipboards": {
+      "index": "xclipboard",
+      "type": "clipboards",
+      "mappings": {
+        "clipboards": {
+          "properties": {
+            "createdAt": {
+              "format": "dateOptionalTime",
+              "type": "date"
+            },
+            "id": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "pictogram": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "text": {
+              "type": "string",
+              "index": "not_analyzed"
+            }
+          }
+        }
+      }
+    }
+  },
+  "provider": {
+    "selected": "elasticsearch",
+    "elasticsearch": {
+      "hosts": [
+        {
+          "protocol": "https",
+          "host": "host",
+          "auth": "login:pass",
+          "port": 443,
+          "weight": 1
+        }
+      ],
+      "keepAlive": true
+    }
+  }
+}
