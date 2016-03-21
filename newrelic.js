@@ -12,7 +12,7 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['festivals'],
+  app_name: ['xclipboard'],
   /**
    * Your New Relic license key.
    */
