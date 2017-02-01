@@ -175,9 +175,9 @@ config@1.21.0:
   dependencies:
     json5 "0.4.0"
 
-config@1.24.0:
-  version "1.24.0"
-  resolved "https://registry.yarnpkg.com/config/-/config-1.24.0.tgz#553bc4d77637d6630a305b52c33cb6da2b9f42f0"
+config@1.25.1:
+  version "1.25.1"
+  resolved "https://registry.yarnpkg.com/config/-/config-1.25.1.tgz#72ac51cde81e2c77c6b3b66d0130dae527a19c92"
   dependencies:
     json5 "0.4.0"
 
@@ -626,9 +626,9 @@ negotiator@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
-newrelic@1.36.1:
-  version "1.36.1"
-  resolved "https://registry.yarnpkg.com/newrelic/-/newrelic-1.36.1.tgz#a5341aebafe6f3f39ba18f35068ccac0dc082f83"
+newrelic@^1.36.2:
+  version "1.36.2"
+  resolved "https://registry.yarnpkg.com/newrelic/-/newrelic-1.36.2.tgz#abbac2bb300d6d97ccaeea658caa6c4f44218b50"
   dependencies:
     concat-stream "^1.5.0"
     https-proxy-agent "^0.3.5"
