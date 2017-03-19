@@ -585,9 +585,9 @@ mkdirp@~0.5.1:
   dependencies:
     minimist "0.0.8"
 
-moment@2.17.1, moment@^2.10.6:
-  version "2.17.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.17.1.tgz#fed9506063f36b10f066c8b59a144d7faebe1d82"
+moment@2.18.0, moment@^2.10.6:
+  version "2.18.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.0.tgz#6cfec6a495eca915d02600a67020ed994937252c"
 
 ms@0.7.2:
   version "0.7.2"
@@ -626,9 +626,9 @@ negotiator@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
-newrelic@1.38.0:
-  version "1.38.0"
-  resolved "https://registry.yarnpkg.com/newrelic/-/newrelic-1.38.0.tgz#c50f7c3d28f7a7691fef0a5fc278cfdb65b33699"
+newrelic@1.38.1:
+  version "1.38.1"
+  resolved "https://registry.yarnpkg.com/newrelic/-/newrelic-1.38.1.tgz#c3d10f02c9b14f84365f5eb939ae313ff24ff618"
   dependencies:
     concat-stream "^1.5.0"
     https-proxy-agent "^0.3.5"
