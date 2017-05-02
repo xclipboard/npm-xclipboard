@@ -46,9 +46,9 @@ async@1.5.2, async@^1.4.0:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
 
-async@2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/async/-/async-2.3.0.tgz#1013d1051047dd320fe24e494d5c66ecaf6147d9"
+async@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/async/-/async-2.4.0.tgz#4990200f18ea5b837c2cc4f8c031a6985c385611"
   dependencies:
     lodash "^4.14.0"
 
@@ -256,9 +256,9 @@ ecc-jsbn@~0.1.1:
   dependencies:
     jsbn "~0.1.0"
 
-elasticsearch@13.0.0-rc2:
-  version "13.0.0-rc2"
-  resolved "https://registry.yarnpkg.com/elasticsearch/-/elasticsearch-13.0.0-rc2.tgz#d2c70cf4dc3cc205019d4e5acb9869cd02804354"
+elasticsearch@13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/elasticsearch/-/elasticsearch-13.0.0.tgz#7f95bdbff5cad637a53be613ddb9adf3770cef58"
   dependencies:
     agentkeepalive "^2.2.0"
     chalk "^1.0.0"

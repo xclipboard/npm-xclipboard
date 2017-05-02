@@ -5,9 +5,9 @@
   "main": "./lib/xclipboard.js",
   "dependencies": {
     "assert-plus": "1.0.0",
-    "async": "2.3.0",
+    "async": "2.4.0",
     "config": "1.25.1",
-    "elasticsearch": "13.0.0-rc2",
+    "elasticsearch": "13.0.0",
     "keen-js": "3.4.1",
     "moment": "2.18.1",
     "my-restify-api": "0.6.4",
