@@ -263,9 +263,9 @@ ecc-jsbn@~0.1.1:
   dependencies:
     jsbn "~0.1.0"
 
-elasticsearch@13.0.0:
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/elasticsearch/-/elasticsearch-13.0.0.tgz#7f95bdbff5cad637a53be613ddb9adf3770cef58"
+elasticsearch@13.0.1:
+  version "13.0.1"
+  resolved "https://registry.yarnpkg.com/elasticsearch/-/elasticsearch-13.0.1.tgz#fa58204233052c4cd221e8721e48f3906b385b32"
   dependencies:
     agentkeepalive "^2.2.0"
     chalk "^1.0.0"
@@ -645,9 +645,9 @@ negotiator@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
-newrelic@1.39.0:
-  version "1.39.0"
-  resolved "https://registry.yarnpkg.com/newrelic/-/newrelic-1.39.0.tgz#84d8ad0b4acd72e7e7205b9286139ad99490ea9e"
+newrelic@1.39.1:
+  version "1.39.1"
+  resolved "https://registry.yarnpkg.com/newrelic/-/newrelic-1.39.1.tgz#9d73571d77a436c3916d32b7fe2ae3a9dfd6bb17"
   dependencies:
     concat-stream "^1.5.0"
     https-proxy-agent "^0.3.5"
