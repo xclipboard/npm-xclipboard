@@ -6,7 +6,7 @@
   "dependencies": {
     "assert-plus": "1.0.0",
     "async": "2.6.0",
-    "config": "1.29.2",
+    "config": "1.29.4",
     "elasticsearch": "14.1.0",
     "keen-js": "4.3.0",
     "moment": "2.20.1",
