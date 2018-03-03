@@ -9,7 +9,7 @@
     "config": "1.30.0",
     "elasticsearch": "14.1.0",
     "keen-js": "4.3.0",
-    "moment": "2.20.1",
+    "moment": "2.21.0",
     "my-restify-api": "0.6.6",
     "newrelic": "2.9.0",
     "node-uuid": "1.4.8",
